@@ -1,13 +1,14 @@
 ﻿using System;
 using Terraria;
 using TerrariaApi.Server;
+using TShockAPI;
 
 namespace PluginTemplate
 {
     /// <summary>
     /// The main plugin class should always be decorated with an ApiVersion attribute. The current API Version is 2.00 and don't forget to add OTAPI
     /// </summary>
-    [ApiVersion(2,00)]
+    [ApiVersion(2, 1)]
     public class PluginTemplate : TerrariaPlugin
     {
         /// <summary>
@@ -57,7 +58,7 @@ namespace PluginTemplate
         /// </summary>
         public override void Initialize()
         {
-            throw new System.NotImplementedException();
+            TShock.Log.Info("Hello World"); //After this plugin would run, the "Hello World" would appear in the server's log
         }
         
         /// <summary>
