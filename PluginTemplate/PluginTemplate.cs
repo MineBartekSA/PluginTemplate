@@ -6,7 +6,7 @@ using TShockAPI;
 namespace PluginTemplate
 {
     /// <summary>
-    /// The main plugin class should always be decorated with an ApiVersion attribute. The current API Version is 2.00 and don't forget to add OTAPI
+    /// The main plugin class should always be decorated with an ApiVersion attribute. The current API Version is 2.1 and don't forget to add OTAPI
     /// </summary>
     [ApiVersion(2, 1)]
     public class PluginTemplate : TerrariaPlugin
